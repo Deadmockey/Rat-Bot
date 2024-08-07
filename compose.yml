@@ -1,0 +1,6 @@
+services:
+  ratbot:
+    image: deadmockey/ratbot
+    build: .
+    env_file:
+      - .env
